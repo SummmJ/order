@@ -1,0 +1,49 @@
+.header{
+    background-color:#FAFAFA;;
+    
+    height: 154px;
+}
+#head{
+    display: flex;
+    width: 375px;
+    height: 44px;
+    align-items: center;
+}
+#head img{
+    width: 24px;
+    height: 24px;
+	margin-left: 16px;
+}
+#head span{
+    width: 163px;
+    height: 25px;
+    margin:auto;
+    font-family: PingFangSC-Medium;
+font-size: 18px;
+color: #000000;
+text-align: center;
+}
+
+.people{
+    width: 375px;
+    height: 110px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+}
+.people p{
+ line-height: 14px;
+ margin-left: 44px;
+ margin-top: 16px;
+}
+.people img{
+    margin-left: 12px;
+    width: 33px;
+    height: 16px;
+}
+.location p{
+    text-overflow: ellipsis;
+    font-family: PingFangSC-Medium;
+    color: #000000;
+    font-size: 16px;
+    line-height: 16px;
+}
