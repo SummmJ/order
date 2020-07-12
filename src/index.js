@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css'
 import Header from './components/header'
+import Shopping from './components/shopping'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
       <Header/>
+      <Shopping/>
   </React.StrictMode>,
   document.getElementById('root')
 );
